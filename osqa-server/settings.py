@@ -11,7 +11,7 @@ CACHE_MAX_KEY_LENGTH = 235
 
 MIDDLEWARE_CLASSES = [
     'django.middleware.csrf.CsrfViewMiddleware',
-   #'django.middleware.csrf.CsrfResponseMiddleware',
+    'django.middleware.csrf.CsrfResponseMiddleware',
     'forum.middleware.django_cookies.CookiePreHandlerMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -54,7 +54,7 @@ from settings_local import *
 if DEBUG:
     TEMPLATE_LOADERS = [
         'django.template.loaders.filesystem.load_template_source',
-        #'django.template.loaders.app_directories.load_template_source',
+        'django.template.loaders.app_directories.load_template_source',
         'forum.modules.template_loader.module_templates_loader',
         'forum.skins.load_template_source',
     ]
