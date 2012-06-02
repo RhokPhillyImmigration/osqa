@@ -1,0 +1,110 @@
+10
+
+dir
+1269
+http://svn.osqa.net/svnroot/osqa/trunk/forum_modules
+http://svn.osqa.net/svnroot
+
+
+
+2012-04-18T13:49:12.520070Z
+1252
+jordan
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+0cfe37f9-358a-4d5e-be75-b63607b5c754
+
+__init__.py
+file
+
+
+
+
+2012-06-02T19:17:52.000000Z
+d41d8cd98f00b204e9800998ecf8427e
+2011-06-25T03:50:15.766114Z
+1077
+jordan
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+
+default_badges
+dir
+
+recaptcha
+dir
+
+facebookauth
+dir
+
+mysqlfulltext
+dir
+
+akismet
+dir
+
+pgfulltext
+dir
+
+openidauth
+dir
+
+sphinxfulltext
+dir
+
+oauthauth
+dir
+
+ldapauth
+dir
+
+updates
+dir
+
+robotstxt
+dir
+
+exporter
+dir
+
+project_badges
+dir
+
+sximporter
+dir
+
+localauth
+dir
+
