@@ -264,11 +264,15 @@
                     {% if user.is_anonymous %}
                         value="{% trans "Login/Signup to Post Your Answer" %}" 
                     {% else %}
-                        {% if user == question.author %}
+						{% comment %}
+						{% if user == question.author %}
                         value="{% trans "Answer Your Own Question" %}" 
-                        {% else %}
-                        value="{% trans "Answer the question" %}" 
-                        {% endif %}
+						{% else %}
+						{% endcomment %}
+						value="{% trans "Answer the question" %}" 
+						{% comment %}
+						{% endif %}
+						{% endcomment %}
                     {% endif %}
                     class="submit" style="float:left" onclick="submitClicked(event, this.form)"/>
             {% endif %}
